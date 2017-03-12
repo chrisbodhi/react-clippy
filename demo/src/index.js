@@ -1,17 +1,17 @@
-import React from 'react'
-import {render} from 'react-dom'
+import React from 'react';
+import {render} from 'react-dom';
 
-import Component from '../../src'
+import ReactClippy from '../../src';
 
-import './index.css'
+import './index.css';
 
-let Demo = React.createClass({
-  render() {
-    return <div>
-      <h1>react-clippy Demo</h1>
-      <Component/>
-    </div>
-  }
-})
+const Demo = () => (
+  <div>
+    <h1>react-clippy Demo</h1>
+    <ReactClippy
+      actor={'Clippy'}
+    />
+  </div>
+);
 
-render(<Demo/>, document.querySelector('#demo'))
+render(<Demo />, document.querySelector('#demo'));
