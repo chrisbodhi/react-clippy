@@ -3,6 +3,8 @@ import {render} from 'react-dom'
 
 import Component from '../../src'
 
+import './index.css'
+
 let Demo = React.createClass({
   render() {
     return <div>
