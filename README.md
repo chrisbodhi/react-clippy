@@ -4,8 +4,6 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe react-clippy here.
-
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
 
@@ -14,3 +12,17 @@ Describe react-clippy here.
 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/user/repo
+
+
+## Usage
+
+```
+import Clippy from 'react-clippy';
+
+<Clippy
+  actor={}
+  animation={}
+  dialog={}
+/>
+```
+
